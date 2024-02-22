@@ -20,3 +20,4 @@
 ### System
 - Relations for fields that are no longer included in an element’s field layout are now deleted after element save. ([#13956](https://github.com/craftcms/cms/issues/13956))
 - The Sendmail email transport type now uses the `sendmail_path` PHP ini setting by default. ([#14433](https://github.com/craftcms/cms/pull/14433))
+- Console requests no longer filter out info logs. ([#14434](https://github.com/craftcms/cms/pull/14434))
